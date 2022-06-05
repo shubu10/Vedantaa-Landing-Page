@@ -1,0 +1,296 @@
+
+.heading {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("blue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading h1 {
+    font-size: 9rem;
+    height: auto;
+    text-align: center;
+    margin-top: 5rem;
+    font-family: 'IM Fell English SC', serif;
+    color: rgb(169, 0, 0);
+    letter-spacing: 1.5rem;
+    margin-top: 10rem;
+}
+
+.heading h5 {
+    font-size: 2rem;
+    margin-top: -150px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(220, 220, 220);
+}
+
+.section-heading {
+    /* width: 100vw; */
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 3rem;
+    color: rgb(220, 220, 220);
+    font-family: 'Kalam', cursive;
+    ;
+}
+
+.about-us {
+    /* background-color: rgb(51, 51, 51); */
+    background-image: url("stars1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 4%;
+}
+
+
+.about-us p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: rgb(220, 220, 220);
+    font-size: 2rem;
+}
+
+.about-us h6 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: rgb(237, 68, 68);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.about-us h5 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: rgb(183, 183, 183);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+
+}
+
+
+.course {
+    /* width: 100vw; */
+    /* background-color: rgb(131, 103, 133); */
+    background-image: url("school-kids.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* opacity: 0.4; */
+}
+
+
+.details {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+    /* border-radius: 20px; */
+}
+
+.card {
+    text-align: center;
+    background-color: rgba(46, 46, 46, 0.8);
+    height: auto;
+    width: 25%;
+    margin: 1%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    color: rgb(212, 212, 212);
+
+}
+
+
+/* .know-button {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(25, 130, 125);
+    width: 70%;
+    margin: auto;
+    height: 40px;
+    font-size: 1.3rem;
+} */
+
+/* .know-button a {
+    text-decoration: none;
+    color: rgb(161, 186, 255);
+} */
+
+.details-img {
+    margin-bottom: 20px;
+}
+
+.contact-us {
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+
+
+
+
+.cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+    margin-top: -2rem;
+}
+
+.icon {
+    /* display: flex; */
+    justify-content: center;
+    width: 25%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 3rem;
+    color: rgb(220, 220, 220);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.icon p {
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+
+/* #back-top {
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.5s;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+#back-top:hover {
+    background-color: rgb(185, 80, 255);
+}
+
+#back-top a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.top {
+    display: flex;
+    justify-content: end;
+    padding: 0 1rem;
+} */
+
+.foot {
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    color: rgb(173, 173, 173);
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .heading {
+        height: 50vh;
+        /* width: 100vw; */
+    }
+
+    .heading h1 {
+        font-size: 4rem;
+        letter-spacing: normal;
+        margin-top: 6rem;
+        /* margin-bottom: 0; */
+        /* margin: auto; */
+        /* text-align: center; */
+        /* height: auto; */
+        /* margin-top: 5vh; */
+    }
+
+    .heading h5 {
+        font-size: 1.5rem;
+        margin-top: -4rem;
+        /* margin-bottom: 1rem; */
+    }
+
+    .section-heading {
+        font-size: 8vw;
+        /* margin-top: 1rem; */
+        /* padding-top: 1rem; */
+    }
+
+    .about-us p {
+        width: 90vw;
+        font-size: 4vw;
+    }
+    
+    .about-us h6 {
+        width: 90%;
+        font-size: 3vw;
+        /* margin-top: 5px; */
+    }
+    
+    .about-us h5 {
+        width: 90%;
+        font-size: 3.5vw;
+        /* margin-top: 5px; */
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        /* text-align: center; */
+        /* background-color: rgba(46, 46, 46, 0.8); */
+        /* height: auto; */
+        width: 40%;
+        margin-bottom: 5%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding-bottom: 20px;
+        color: rgb(212, 212, 212);
+    
+    }
+
+    .cont{
+        padding-bottom: 2rem;
+    }
+
+    .icon {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* height: 1rem; */
+        width: 90%;
+        /* flex-wrap: wrap; */
+        /* text-align: center; */
+        margin: 3rem;
+        margin-bottom: 0%;
+        /* color: rgb(220, 220, 220); */
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    
+    .icon p {
+        background-color: rgba(50, 50, 50, 0.5);
+        border-radius: 5px;
+        padding: 1rem;
+    }
+
+
+}

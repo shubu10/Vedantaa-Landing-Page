@@ -207,13 +207,18 @@
 
 @media screen and (max-width: 576px) {
 
+    section{
+        padding-top: 1rem;
+    }
+
     .heading {
-        height: 50vh;
+        height: 30vh;
+        padding-top: 0;
         /* width: 100vw; */
     }
 
     .heading h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: normal;
         margin-top: 6rem;
         /* margin-bottom: 0; */
@@ -224,7 +229,7 @@
     }
 
     .heading h5 {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         margin-top: -4rem;
         /* margin-bottom: 1rem; */
     }
@@ -233,6 +238,17 @@
         font-size: 8vw;
         /* margin-top: 1rem; */
         /* padding-top: 1rem; */
+    }
+
+    .about-us{
+        background-image: none;
+        background-color: #0F2027;
+    }
+    
+    .course{
+        background-image: none;
+        background-color: #2392ba;
+
     }
 
     .about-us p {
@@ -292,5 +308,6 @@
         padding: 1rem;
     }
 
+    
 
 }

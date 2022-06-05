@@ -1,4 +1,3 @@
-
 .heading {
     height: 100vh;
     display: flex;
@@ -207,7 +206,7 @@
 
 @media screen and (max-width: 576px) {
 
-    section{
+    section {
         padding-top: 1rem;
     }
 
@@ -221,7 +220,7 @@
         font-size: 3rem;
         letter-spacing: normal;
         margin-top: 6rem;
-        /* margin-bottom: 0; */
+        margin-bottom: 1rem;
         /* margin: auto; */
         /* text-align: center; */
         /* height: auto; */
@@ -240,12 +239,20 @@
         /* padding-top: 1rem; */
     }
 
-    .about-us{
+    .about-us {
         background-image: none;
-        background-color: #0F2027;
+        /* background-color: #0F2027; */
+        background: #141E30;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #243B55, #141E30);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #243B55, #141E30);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     }
-    
-    .course{
+
+    .course {
         background-image: none;
         background-color: #2392ba;
 
@@ -255,13 +262,13 @@
         width: 90vw;
         font-size: 4vw;
     }
-    
+
     .about-us h6 {
         width: 90%;
         font-size: 3vw;
         /* margin-top: 5px; */
     }
-    
+
     .about-us h5 {
         width: 90%;
         font-size: 3.5vw;
@@ -281,10 +288,10 @@
         overflow: hidden;
         padding-bottom: 20px;
         color: rgb(212, 212, 212);
-    
+
     }
 
-    .cont{
+    .cont {
         padding-bottom: 2rem;
     }
 
@@ -301,13 +308,13 @@
         font-size: 4vw;
         font-weight: 500;
     }
-    
+
     .icon p {
         background-color: rgba(50, 50, 50, 0.5);
         border-radius: 5px;
         padding: 1rem;
     }
 
-    
+
 
 }
